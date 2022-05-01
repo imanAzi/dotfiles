@@ -1,0 +1,115 @@
+{
+	"name": "boto3-ide",
+	"version": "0.5.1",
+	"publisher": "Boto3typed",
+	"displayName": "AWS boto3",
+	"description": "IntelliSense and type checking for all boto3 services",
+	"license": "SEE LICENSE IN LICENSE",
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/youtype/boto3-ide"
+	},
+	"bugs": {
+		"url": "https://github.com/youtype/boto3-ide/issues",
+		"email": "vlad.emelianov.nz@gmail.com"
+	},
+	"author": {
+		"name": "Vlad Emelianov",
+		"email": "vlad.emelianov.nz@gmail.com"
+	},
+	"engines": {
+		"vscode": "^1.66.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Linters",
+		"Other"
+	],
+	"keywords": [
+		"boto3",
+		"botocore",
+		"type checking",
+		"intellisense",
+		"pylance"
+	],
+	"activationEvents": [
+		"onCommand:boto3-ide.quickstart",
+		"onCommand:boto3-ide.modify",
+		"onCommand:boto3-ide.update",
+		"onCommand:boto3-ide.docs",
+		"onCommand:boto3-ide.autodiscover",
+		"onCommand:boto3-ide.installer"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "boto3-ide.quickstart",
+				"title": "AWS boto3: Quick Start"
+			},
+			{
+				"command": "boto3-ide.modify",
+				"title": "AWS boto3: Add or remove services"
+			},
+			{
+				"command": "boto3-ide.update",
+				"title": "AWS boto3: Update services"
+			},
+			{
+				"command": "boto3-ide.docs",
+				"title": "AWS boto3: Browse documentation"
+			},
+			{
+				"command": "boto3-ide.autodiscover",
+				"title": "AWS boto3: Auto-discover boto3 services in current project"
+			},
+			{
+				"command": "boto3-ide.installer",
+				"title": "AWS boto3: Select installer"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"build": "vsce package",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js",
+		"packages": "python ./get_packages.py src/servicePackages.ts",
+		"format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.4",
+		"@types/mocha": "^9.0.0",
+		"@types/node": "16.x",
+		"@types/vscode": "^1.61.0",
+		"@typescript-eslint/eslint-plugin": "^5.1.0",
+		"@typescript-eslint/parser": "^5.1.0",
+		"@vscode/test-electron": "^2.1.3",
+		"eslint": "^8.1.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-prettier": "^4.0.0",
+		"glob": "^8.0.1",
+		"mocha": "^9.1.3",
+		"prettier": "^2.4.1",
+		"ts-node": "^10.4.0",
+		"typescript": "^4.4.4",
+		"vsce": "^2.6.5"
+	},
+	"dependencies": {
+		"ignore": "^5.1.9"
+	},
+	"__metadata": {
+		"id": "00f2a80e-3db8-4507-872d-fffc722e4641",
+		"publisherId": "8c77e790-47de-4308-a44b-404ea4c17444",
+		"publisherDisplayName": "Boto3.typed",
+		"targetPlatform": "undefined",
+		"updated": true,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1650619225694
+	}
+}

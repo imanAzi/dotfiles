@@ -1,0 +1,67 @@
+{
+	"name": "cdk-snippets",
+	"displayName": "CDK Construct Snippets",
+	"description": "This extension adds L1 construct snippets from CDK into Visual Studio Code.",
+	"author": "Danny Steenman",
+	"version": "1.39.0",
+	"publisher": "dannysteenman",
+	"icon": "images/cdk-extension-icon.png",
+	"homepage": "https://towardsthecloud.com",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dannysteenman/vscode-cdk-snippets"
+	},
+	"engines": {
+		"vscode": "^1.31.0"
+	},
+	"galleryBanner": {
+		"color": "#2B2C33",
+		"theme": "dark"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"keywords": [
+		"aws",
+		"cdk",
+		"cloudformation",
+		"construct",
+		"typescript"
+	],
+	"badges": [
+		{
+			"url": "https://vsmarketplacebadge.apphb.com/version/dannysteenman.cdk-snippets.svg",
+			"href": "https://marketplace.visualstudio.com/items?itemName=dannysteenman.cdk-snippets",
+			"description": "Version"
+		},
+		{
+			"url": "https://vsmarketplacebadge.apphb.com/installs-short/dannysteenman.cdk-snippets.svg",
+			"href": "https://marketplace.visualstudio.com/items?itemName=dannysteenman.cdk-snippets",
+			"description": "Installs"
+		},
+		{
+			"url": "https://vsmarketplacebadge.apphb.com/rating-star/dannysteenman.cdk-snippets.svg",
+			"href": "https://marketplace.visualstudio.com/items?itemName=dannysteenman.cdk-snippets",
+			"description": "Ratings"
+		}
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "typescript",
+				"path": "./snippets/cdk-l1-constructs.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "ea29bdda-ec2f-4e6a-b4aa-9999fd7b8cd3",
+		"publisherId": "b9b96f41-c56f-4bf3-81d1-12e0170c4cad",
+		"publisherDisplayName": "Danny Steenman",
+		"targetPlatform": "undefined",
+		"updated": true,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1650891939083
+	}
+}
