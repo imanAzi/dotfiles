@@ -1,12 +1,14 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+# if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+#   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+# fi
 
 # Fig pre block. Keep at the top of this file.
-# . "$HOME/.config/.fig/shell/zshrc.pre.zsh"
+. "$HOME/.fig/shell/zshrc.pre.zsh"
+
+
 
 #oh-my-zsh config:
 
@@ -40,7 +42,7 @@ zstyle ':omz:update' frequency 13
 # see 'man strftime' for details.
 HIST_STAMPS="dd/mm/yyyy"
 
-#thefuck config
+#the fuck config
 eval $(thefuck --alias fuck)
 
 # Which plugins would you like to load?
@@ -53,7 +55,6 @@ plugins=(
     asdf
     colored-man-pages
     chucknorris
-    thefuck
     zsh-navigation-tools
     zsh-syntax-highlighting
 )
@@ -61,6 +62,14 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+
+#paths
+export PATH="/usr/local/bin/:$PATH"
+export PATH="/usr/local/bin/brew:$PATH"
+export PATH="/usr/local/sbin:$PATH"
+export PATH="$PATH:~/.local/bin/"
+export PATH="/opt/homebrew/bin:$PATH"
+
 
 #gradle config
 export GRADLE_USER_HOME="~/.gradle"
@@ -126,8 +135,10 @@ alias gpl="git pull"
 alias gdiff="git diff origin/master..HEAD"
 
 
-# Fig post block. Keep at the bottom of this file.
-# . "$HOME/.config/.fig/shell/zshrc.post.zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.config/.p10k.zsh ]] || source ~/.config/.p10k.zsh
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Fig post block. Keep at the bottom of this file.
+. "$HOME/.fig/shell/zshrc.post.zsh"
+
