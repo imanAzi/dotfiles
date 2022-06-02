@@ -1,0 +1,51 @@
+{
+	"name": "nord-palette",
+	"displayName": "Nord Palette",
+	"description": "Dark themes based on Nord palette",
+	"publisher": "Avetis",
+	"author": {
+		"name": "AvetisDN",
+		"email": "avetisdn@gmail.com"
+	},
+	"icon": "icon/nordtheme.png",
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AvetisDN/nord-palette"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Nord Aurora Darker",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nord-darker.json"
+			},
+			{
+				"label": "Nord Aurora",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nord-aurora.json"
+			},
+			{
+				"label": "Nord Frost",
+				"uiTheme": "vs-dark",
+				"path": "./themes/nord-frost.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "12e77c14-bf9b-4c29-b8ae-89ea476a56e6",
+		"publisherId": "27fffc89-fbe8-492d-b944-fffcccaff4ad",
+		"publisherDisplayName": "Avetis",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1652123221706
+	}
+}

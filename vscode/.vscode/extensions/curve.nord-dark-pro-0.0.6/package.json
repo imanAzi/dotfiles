@@ -1,0 +1,45 @@
+{
+	"publisher": "curve",
+	"name": "nord-dark-pro",
+	"icon": "images/icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Curve/Nord-Dark-Pro"
+	},
+	"displayName": "Nord Dark Pro",
+	"description": "Atom's iconic One Dark theme with Nord colors!",
+	"version": "0.0.6",
+	"engines": {
+		"vscode": "^1.46.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Nord Dark Pro (C++ only)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Nord-Dark-Pro.json"
+			},
+			{
+				"label": "Nord Dark Pro (Full)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Nord-Dark-Pro-Full.json"
+			}
+		]
+	},
+	"dependencies": {
+		"vsce": "^1.93.0"
+	},
+	"__metadata": {
+		"id": "97710709-516c-4c4b-8aea-8cf07b019368",
+		"publisherId": "7f165a56-7071-456f-9d72-a6de10522257",
+		"publisherDisplayName": "Curve",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1652123302625
+	}
+}

@@ -1,0 +1,147 @@
+[
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -I../json/single_include -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -Wall -Werror -Wextra -pedantic -std=c++17 -o CMakeFiles/joiner.dir/main.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/main.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/main.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/adobe.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/adobe.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/adobe.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/color.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/color.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/color.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/colormap.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/colormap.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/colormap.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/hex.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/hex.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/hex.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/hsl.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/hsl.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/hsl.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/hsv.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/hsv.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/hsv.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/index.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/index.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/index.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/interpolation.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/interpolation.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/interpolation.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/lab.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/lab.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/lab.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/lch.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/lch.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/lch.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/lrgb.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/lrgb.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/lrgb.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/name.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/name.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/name.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/oklab.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/oklab.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/oklab.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/rgb.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/rgb.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/rgb.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/rgb32.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/rgb32.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/rgb32.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/rgb8.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/rgb8.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/rgb8.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/srgb.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/srgb.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/srgb.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/types.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/types.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/types.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/utility.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/utility.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/utility.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/CMakeFiles/vivid.dir/src/xyz.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/xyz.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/src/xyz.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -g -fPIC -o vivid/examples/CMakeFiles/vivid_examples_convert_maps.dir/convert_maps.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/examples/convert_maps.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/examples/convert_maps.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -g -fPIC -o vivid/examples/CMakeFiles/vivid_examples_advanced.dir/advanced.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/examples/advanced.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/examples/advanced.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/examples/CMakeFiles/vivid_examples_strong_types.dir/strong_types.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/examples/strong_types.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/examples/strong_types.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -g -o vivid/examples/CMakeFiles/vivid_examples_basics.dir/basics.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/examples/basics.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/examples/basics.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/tests -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -g -fPIC -o vivid/tests/CMakeFiles/vivid_tests.dir/test_main.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/tests/test_main.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/tests/test_main.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/tests -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -g -fPIC -o vivid/tests/CMakeFiles/vivid_tests.dir/test_conversion_manual.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/tests/test_conversion_manual.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/tests/test_conversion_manual.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/tests -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -g -fPIC -o vivid/tests/CMakeFiles/vivid_tests.dir/test_profiles.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/tests/test_profiles.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/tests/test_profiles.cpp"
+},
+{
+  "directory": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/build",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DVIVID_ROOT_PATH=\\\"/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/\\\" -I../vivid/tests -I../vivid/include -I_deps/json-src/include -I_deps/glm-src/glm/.. -isystem /usr/include/qt -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -isystem /usr/include/qt/QtGui -g -fPIC -o vivid/tests/CMakeFiles/vivid_tests.dir/test_conversion_fuzzy.cpp.o -c /home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/tests/test_conversion_fuzzy.cpp",
+  "file": "/home/curve/Documents/sources/one-dark-pro-nord/joiner/vivid/tests/test_conversion_fuzzy.cpp"
+}
+]

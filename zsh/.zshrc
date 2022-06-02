@@ -1,3 +1,5 @@
+# Fig pre block. Keep at the top of this file.
+. "$HOME/.fig/shell/zshrc.pre.zsh"
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -5,13 +7,8 @@
 #   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 # fi
 
-# Fig pre block. Keep at the top of this file.
-. "$HOME/.fig/shell/zshrc.pre.zsh"
-
-
-
-#oh-my-zsh config:
-
+##############################Fig pre block. Keep at the top of this file##############################
+##############################oh-my-zsh config:##############################
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.config/.oh-my-zsh
 
@@ -33,7 +30,6 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 # Uncomment the following line to change how often to auto-update (in days).
 zstyle ':omz:update' frequency 13
 
-
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
 # You can set one of the optional three formats:
@@ -43,8 +39,6 @@ zstyle ':omz:update' frequency 13
 HIST_STAMPS="dd/mm/yyyy"
 
 #the fuck config
-eval $(thefuck --alias fuck)
-
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
@@ -52,7 +46,6 @@ eval $(thefuck --alias fuck)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git
-    asdf
     colored-man-pages
     chucknorris
     zsh-navigation-tools
@@ -61,8 +54,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-
+##############################User configuration##############################
 #paths
 export PATH="/usr/local/bin/:$PATH"
 export PATH="/usr/local/bin/brew:$PATH"
@@ -70,31 +62,32 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="$PATH:~/.local/bin/"
 export PATH="/opt/homebrew/bin:$PATH"
 
-
 #gradle config
 export GRADLE_USER_HOME="~/.gradle"
 export ARTIFACTORY_USER="iazimnia"
 export ARTIFACTORY_API_KEY="AKCp8kr1CdTDD8jN2fmtZHG2DXTyQhBYczTY3e4NQ11LPgfcmh9hNU33E1zf1UFhN371K7WAw"
 
 #aws config
-export AWS_PROFILE=the_shire_a
+export AWS_PROFILE=default
 export AWS_DEFAULT_REGION=eu-west-1
 export AWS_DEFAULT_SSO_START_URL=https://d-93677093a7.awsapps.com/start
 export AWS_DEFAULT_SSO_REGION=eu-west-1
-
 
 #zscaler config
 export REQUESTS_CA_BUNDLE=~/.zcli/zscaler_root.pem
 export NODE_EXTRA_CA_CERTS=~/.zcli/zscaler_root.pem
 export AWS_CA_BUNDLE=~/.zcli/zscaler_root.pem
 
-
 #python config
 export PATH="$PATH:/Users/iazimnia/.local/bin"
 export PATH="$PATH:/Users/iazimnia/Library/Python/3.9/bin"
 
+#p10k config
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-#aliases
+
+###################################aliases####################################
 #movement in terminal
 alias l="ls -lah"
 alias e="exa -lbhHigUmuSa --time-style=long-iso --git --color-scale"
@@ -113,11 +106,12 @@ alias v="nvim"
 
 #aws
 alias avl="aws-vault login"
-alias ave="aws-vault execute"
+alias ave="aws-vault exec"
 alias alog="aws-sso-util login"
 alias alogw="aws sso login --profile the_shire_wrapped && aws2-wrap --generate --profile the_shire_wrapped --credentialsfile ~/.aws/credentials --configfile ~/.aws/config --outprofile Wrapped"
 
 alias ashire="export AWS_PROFILE=the_shire_a"
+alias ashirew="export AWS_PROFILE=the_shire_wrapped"
 
 #python
 alias python="python3 -m"
@@ -130,15 +124,17 @@ alias gbr="git branch"
 alias gcm="git commit -m"
 alias gcl="git clone"
 alias gch="git checkout"
+alias gchm="git checkout master"
 alias gps="git push"
+alias gpsu="git push -u"
+alias gpsuo="git push -u origin"
 alias gpl="git pull"
 alias gdiff="git diff origin/master..HEAD"
 
+##############################asdf config##############################
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
 
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+##############################Fig post block. Keep at the bottom of this file##############################
 
 # Fig post block. Keep at the bottom of this file.
 . "$HOME/.fig/shell/zshrc.post.zsh"
-

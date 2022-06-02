@@ -1,0 +1,9 @@
+[submodule "joiner/OneDark-Pro"]
+	path = joiner/OneDark-Pro
+	url = https://github.com/Binaryify/OneDark-Pro
+[submodule "joiner/json"]
+	path = joiner/json
+	url = https://github.com/nlohmann/json
+[submodule "joiner/vivid"]
+	path = joiner/vivid
+	url = https://github.com/gurki/vivid
