@@ -103,6 +103,7 @@ alias j="jobs -l"
 alias lp10="ps aux | sort -nr -k 3 | head -10"
 alias ping="ping -c 5"
 alias v="nvim"
+alias vsext="code --list-extensions >> ~/.dotfiles/vscode/vscode-extenstions.txt"
 
 #aws
 alias avl="aws-vault login"
