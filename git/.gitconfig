@@ -22,3 +22,5 @@
 	path = ~/.gitconfig_dpg
 [includeIf "gitdir:~/imbyte-projects/personal/"]
 	path = ~/.gitconfig_personal
+[http]
+	sslCAInfo = /Users/iazimnia/.zcli/zscaler_root.pem

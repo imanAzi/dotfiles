@@ -1,5 +1,5 @@
 # Fig pre block. Keep at the top of this file.
-. "$HOME/.fig/shell/zshrc.pre.zsh"
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && . "$HOME/.fig/shell/zshrc.pre.zsh"
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -61,6 +61,8 @@ export PATH="/usr/local/bin/brew:$PATH"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$PATH:~/.local/bin/"
 export PATH="/opt/homebrew/bin:$PATH"
+export GOPATH=~/go
+export PATH=$GOPATH/bin:$PATH
 
 #gradle config
 export GRADLE_USER_HOME="~/.gradle"
@@ -76,7 +78,7 @@ export AWS_DEFAULT_SSO_REGION=eu-west-1
 #zscaler config
 export REQUESTS_CA_BUNDLE=~/.zcli/zscaler_root.pem
 export NODE_EXTRA_CA_CERTS=~/.zcli/zscaler_root.pem
-export AWS_CA_BUNDLE=~/.zcli/zscaler_root.pem
+export AWS_CA_BUNDLE=/opt/homebrew/lib/python3.9/site-packages/certifi/cacert.pem
 
 #python config
 export PATH="$PATH:/Users/iazimnia/.local/bin"
@@ -108,6 +110,7 @@ alias vsext="code --list-extensions >> ~/.dotfiles/vscode/vscode-extenstions.txt
 #aws
 alias avl="aws-vault login"
 alias ave="aws-vault exec"
+alias avu="unset AWS_VAULT"
 alias alog="aws-sso-util login"
 alias alogw="aws sso login --profile the_shire_wrapped && aws2-wrap --generate --profile the_shire_wrapped --credentialsfile ~/.aws/credentials --configfile ~/.aws/config --outprofile Wrapped"
 
@@ -137,5 +140,9 @@ alias gdiff="git diff origin/master..HEAD"
 
 ##############################Fig post block. Keep at the bottom of this file##############################
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 # Fig post block. Keep at the bottom of this file.
-. "$HOME/.fig/shell/zshrc.post.zsh"
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
